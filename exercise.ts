@@ -9,7 +9,7 @@ for (let i = 1; i <= 10; i++) {
 
 // Soal 2 
 
-let text = 'ses'; 
+let text = 'kasur ini rusak'; 
 
 let lowertext = text.replace(/\s+/g, '').toLowerCase();
 
@@ -20,6 +20,27 @@ if (lowertext === balikantext) {
 } else {
     console.log(`${lowertext} bukan palidrome`);
 }
+
+// looping manual 
+let text2 = "level"; 
+let _hasilPalindrome = "palindrome";
+
+console.log(text2.length / 2);
+
+
+for (let i = 0; i < text2.length / 2; i++) {
+    console.log(text2[i]); 
+    console.log(text2[text2.length - 1 - i]);
+
+   
+    if (text2[i] !== text2[text2.length - 1 - i]) {
+        _hasilPalindrome = "not palindrome"; 
+        break; 
+    }
+}
+
+console.log(_hasilPalindrome); 
+
 
 // Soal 3 
 let cm = 100000; 
