@@ -104,7 +104,7 @@ if (typeof input === 'string') {
 
 
 // Soal 11 
-let inputA = 'An apple a day keeps the doctor away. Mhd Ali '; // Ganti dengan string input Anda
+let inputA = 'An apple a day keeps the doctor away. Mhd Ali Aja'; // Ganti dengan string input Anda
 
 // Mengganti setiap huruf 'a' dengan '*'
 let results = inputA.replace(/a/gi, '*');
